@@ -1,0 +1,5 @@
+{
+  "name": "HomeTrack - Daily Purchase Tracker",
+  "description": "A specialized PWA for tracking recurring daily household purchases like milk, water, and newspapers with historical price support.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .h-safe-top {
+    height: env(safe-area-inset-top, 0px);
+  }
+  
+  .pb-safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
